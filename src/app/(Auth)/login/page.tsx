@@ -1,9 +1,12 @@
+import Login from '@/components/Auth/Login'
 import React from 'react'
 
-const Login = () => {
+const LoginPage = () => {
   return (
-    <div className="text-5xl text-center my-auto">Login</div>
+    <div className="flex items-center justify-center min-h-screen">
+      <Login />
+    </div>
   )
 }
 
-export default Login
+export default LoginPage
